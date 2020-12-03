@@ -1,0 +1,75 @@
+/*********************Tag Selectors****************************/
+h1 {
+  color: red;
+  font-family: Verdana, Arial, sans-serif;
+  text-shadow: 5px 5px 5px purple;
+}
+
+h1:hover {
+  color: magenta;
+}
+
+p {
+  color: red;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+}
+
+img {
+  position: relative;
+  left: 50px;
+}
+
+/********************Pseudo Class Selectors****************************/
+img:hover {
+  background-color: gold !important;
+}
+
+/********************Class Selectors****************************/
+.uber-div {
+  background-color: purple;
+  width: 500px;
+  height: 500px;
+}
+
+.start-div {
+  background-color: magenta;
+  width: 200px;
+  height: 200px;
+}
+
+.mid-div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.end-div {
+  background-color: rosybrown;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 0
+}
+
+.bacon {
+  background-color: blue;
+}
+
+.back-bacon {
+  color: pink;
+}
+
+.banana {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%
+}
+
+/********************ID Selectors****************************/
+/*#heading {color: magenta;}*/
+#bacon {
+  background-color: green;
+}
