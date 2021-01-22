@@ -1,0 +1,25 @@
+{
+  "name": "dancing-bacon",
+  "version": "1.0.0",
+  "description": "for fans of bacon",
+  "main": "app.js",
+  "scripts": {
+    "test": "bacon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costelloeward/dancing-bacon.git"
+  },
+  "keywords": [
+    "bacon"
+  ],
+  "author": "Louise CW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costelloeward/dancing-bacon/issues"
+  },
+  "homepage": "https://github.com/costelloeward/dancing-bacon#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

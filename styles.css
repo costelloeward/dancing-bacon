@@ -27,29 +27,35 @@ img:hover {
 
 /********************Class Selectors****************************/
 .uber-div {
-  background-color: purple;
-  width: 500px;
-  height: 500px;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 400px
 }
 
 .start-div {
   background-color: magenta;
   width: 200px;
   height: 200px;
+  position: relative;
+  left: 400px
 }
 
 .mid-div {
   background-color: red;
   width: 200px;
   height: 200px;
+  position: fixed;
+  top:0
 }
 
-.end-div {
+.form-div {
   background-color: rosybrown;
-  width: 200px;
-  height: 200px;
-  position: fixed;
-  top: 0
+  width: 1000px;
+  height: 100px;
+
+
 }
 
 .bacon {
