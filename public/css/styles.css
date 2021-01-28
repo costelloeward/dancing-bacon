@@ -1,16 +1,20 @@
 /*********************Tag Selectors****************************/
+body {
+  background-color: #fff8c1;
+}
+
 h1 {
-  color: red;
+  color: #c05555;
   font-family: Verdana, Arial, sans-serif;
-  text-shadow: 5px 5px 5px purple;
+  text-shadow: 5px 5px 5px #ffc85c;
 }
 
 h1:hover {
-  color: magenta;
+  color: #ffc85c;
 }
 
 p {
-  color: red;
+  color: #c05555;
   font-family: sans-serif;
   letter-spacing: 5px;
 }
@@ -22,28 +26,31 @@ img {
 
 /********************Pseudo Class Selectors****************************/
 img:hover {
-  background-color: gold !important;
+  background-color: #ffc85c !important;
 }
 
 /********************Class Selectors****************************/
-.uber-div {
-  background-color: yellow;
+.streak-div {
+  background-color: #ffc85c;
+  color: #c05555;
   width: 200px;
   height: 200px;
   position: relative;
   left: 400px
 }
 
-.start-div {
-  background-color: magenta;
+.green-div {
+  background-color: #59886b;
+  color: #ffc85c;
   width: 200px;
   height: 200px;
   position: relative;
   left: 400px
 }
 
-.mid-div {
-  background-color: red;
+.bacon-div {
+  background-color: #c05555;
+    color: #ffc85c;
   width: 200px;
   height: 200px;
   position: fixed;
@@ -51,7 +58,8 @@ img:hover {
 }
 
 .form-div {
-  background-color: rosybrown;
+  background-color: #c05555;
+    color: #ffc85c;
   width: 1000px;
   height: 100px;
 
@@ -59,15 +67,15 @@ img:hover {
 }
 
 .bacon {
-  background-color: blue;
+  background-color: #ffc85c;
 }
 
 .back-bacon {
-  color: pink;
+  color: #59886b;
 }
 
 .banana {
-  background-color: red;
+  background-color: #c05555;
 }
 
 .circular {
@@ -75,7 +83,7 @@ img:hover {
 }
 
 /********************ID Selectors****************************/
-/*#heading {color: magenta;}*/
+/* Demonstrates how more specific styling is prioritised */
 #bacon {
-  background-color: green;
+  background-color: #59886b;
 }
