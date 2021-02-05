@@ -22,6 +22,7 @@ p {
 img {
   position: relative;
   left: 50px;
+  top: 400px
 }
 
 /********************Pseudo Class Selectors****************************/
@@ -30,13 +31,23 @@ img:hover {
 }
 
 /********************Class Selectors****************************/
+.bacon-div {
+  background-color: #c05555;
+    color: #ffc85c;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:0
+}
+
 .streak-div {
   background-color: #ffc85c;
   color: #c05555;
-  width: 200px;
+  width: 100px;
   height: 200px;
-  position: relative;
-  left: 400px
+  position: absolute;
+  left: 200px;
+  top:0
 }
 
 .green-div {
@@ -44,26 +55,28 @@ img:hover {
   color: #ffc85c;
   width: 200px;
   height: 200px;
-  position: relative;
-  left: 400px
-}
-
-.bacon-div {
-  background-color: #c05555;
-    color: #ffc85c;
-  width: 200px;
-  height: 200px;
-  position: fixed;
+  position: absolute;
+  left: 300px;
   top:0
 }
+
 
 .form-div {
   background-color: #c05555;
     color: #ffc85c;
   width: 1000px;
   height: 100px;
+  position: relative;
+  top: 300px;
+  padding: 20px;
+margin: 10px;
+}
 
-
+.text-div{
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  top: 200px
 }
 
 .bacon {
