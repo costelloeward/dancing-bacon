@@ -1,4 +1,11 @@
 /*********************Tag Selectors****************************/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
 body {
   background-color: #fff8c1;
 }
@@ -20,9 +27,7 @@ p {
 }
 
 img {
-  position: relative;
-  left: 50px;
-  top: 400px
+border-radius: 100%
 }
 
 /********************Pseudo Class Selectors****************************/
@@ -34,10 +39,9 @@ img:hover {
 .bacon-div {
   background-color: #c05555;
     color: #ffc85c;
-  width: 200px;
   height: 200px;
-  position: absolute;
-  top:0
+grid-column: 1 / span 3;
+
 }
 
 .streak-div {
@@ -45,9 +49,7 @@ img:hover {
   color: #c05555;
   width: 100px;
   height: 200px;
-  position: absolute;
-  left: 200px;
-  top:0
+
 }
 
 .green-div {
@@ -55,9 +57,7 @@ img:hover {
   color: #ffc85c;
   width: 200px;
   height: 200px;
-  position: absolute;
-  left: 300px;
-  top:0
+
 }
 
 
@@ -66,17 +66,16 @@ img:hover {
     color: #ffc85c;
   width: 1000px;
   height: 100px;
-  position: relative;
-  top: 300px;
+
   padding: 20px;
 margin: 10px;
 }
 
 .text-div{
-  position: relative;
+
   width: 1000px;
   height: 100px;
-  top: 200px
+
 }
 
 .bacon {
@@ -89,10 +88,6 @@ margin: 10px;
 
 .banana {
   background-color: #c05555;
-}
-
-.circular {
-  border-radius: 100%
 }
 
 /********************ID Selectors****************************/
