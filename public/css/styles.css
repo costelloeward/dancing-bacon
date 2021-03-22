@@ -1,18 +1,13 @@
 /*********************Tag Selectors****************************/
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-around;
-  align-content: space-around;
-}
+
 
 body {
   background-color: #fff8c1;
+  font-family: sans-serif;
 }
 
 h1 {
   color: #c05555;
-  font-family: Verdana, Arial, sans-serif;
   text-shadow: 5px 5px 5px #ffc85c;
 }
 
@@ -22,7 +17,6 @@ h1:hover {
 
 p {
   color: #c05555;
-  font-family: sans-serif;
   letter-spacing: 5px;
 }
 
@@ -30,12 +24,29 @@ img {
 border-radius: 100%
 }
 
+form {
+  background-color: #c05555;
+    color: #ffc85c;
+  width: 1000px;
+  height: 100px;
+
+  padding: 20px;
+margin: 10px;
+}
+
 /********************Pseudo Class Selectors****************************/
 img:hover {
-  background-color: #ffc85c !important;
+  background-color: #ffc85c;
 }
 
 /********************Class Selectors****************************/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
 .bacon-div {
   background-color: #c05555;
     color: #ffc85c;
@@ -61,16 +72,6 @@ grid-column: 1 / span 3;
 }
 
 
-.form-div {
-  background-color: #c05555;
-    color: #ffc85c;
-  width: 1000px;
-  height: 100px;
-
-  padding: 20px;
-margin: 10px;
-}
-
 .text-div{
 
   width: 1000px;
@@ -82,6 +83,7 @@ margin: 10px;
   background-color: #ffc85c;
 }
 
+/* use of span */
 .back-bacon {
   color: #59886b;
 }
@@ -92,6 +94,6 @@ margin: 10px;
 
 /********************ID Selectors****************************/
 /* Demonstrates how more specific styling is prioritised */
-#bacon {
+/* #bacon {
   background-color: #59886b;
-}
+} */

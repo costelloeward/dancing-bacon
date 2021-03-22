@@ -10,22 +10,33 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+app.get("/no", function(req, res) {
+  res.sendFile(__dirname + "/public/no.html");
+});
+app.get("/yes", function(req, res) {
+  res.sendFile(__dirname + "/public/yes.html");
+});
+app.get("/other", function(req, res) {
+  res.sendFile(__dirname + "/public/other.html");
+});
+
 app.post("/", function(req, res) {
-  console.log(req.body.bacon);
-  const answer = req.body.bacon;
+
+  const answer = (String(req.body.bacon)).toLowerCase();
+  console.log(answer);
+
   if (answer === "yes") {
-    app.get("/yes", function(req, res) {
-      res.sendFile(__dirname + "/yes.html");
-    });
+
+    res.redirect("/yes");
+
   } else if (answer === "no") {
-    app.get("/no", function(req, res) {
-      res.sendFile(__dirname + "/no.html");
-    });
+    res.redirect("/no")
   } else {
-    app.get("/other", function(req, res) {
-      res.sendFile(__dirname + "/other.html");
-    });
+
+    res.redirect("/other");
+
   }
+
 });
 
 app.listen(3000, function() {
