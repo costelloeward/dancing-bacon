@@ -15,7 +15,7 @@
 <p>main, bacon, bacon, bacon, bacon, bacon</p>
   </main>
   <aside>
-<p>aside, bacon, bacon, bacon, bacon, bacon</p>
+<p><span class="back-bacon">aside,</span> bacon, bacon, bacon, bacon, bacon</p>
   </aside>
   <article>
 <p>article, bacon, bacon, bacon, bacon, bacon</p>
@@ -24,35 +24,36 @@
 
 
   <div class="grid-container">
-    <div class="grid-item text-div">
+    <div class="grid-item-one text-box">
 
-      <p>bacon, <span class="back-bacon">bacon,</span> bacon, bacon, bacon, bacon</p>
       <p>bacon, bacon, bacon, bacon, bacon, bacon</p>
       <p>bacon, bacon, bacon, bacon, bacon, bacon</p>
+      <p>bacon, bacon, bacon, bacon, bacon, bacon</p>
     </div>
-    <div class="grid-item bacon-div">
-      1
+    <div class="grid-item-two bacon-box">
+      second grid item
     </div>
-    <div class="grid-item streak-div">
-    2
+    <div class="grid-item-three streak-box">
+    third grid item
     </div>
-    <div class="grid-item green-div">
-    3
+    <div class="grid-item-four green-box">
+    fourth grid item
     </div>
 
-      <img grid-item  src="https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/bacon_1f953.png" alt="bacon-img">
+      <img class ="grid-item-five"   src="https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/bacon_1f953.png" alt="bacon image">
 
-      <img grid-item class="banana" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/banana_1f34c.png" alt="banana-img">
+      <img class="grid-item-six banana" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/banana_1f34c.png" alt="banana image">
+      <form class="grid-item-seven" action="/" method="post">
+        <label for="bacon-form">
+          Do you like bacon?
+        </label>
+        <input type="text" name="bacon" placeholder="Yes or no" />
+        <button type="submit">Submit</button>
+      </form>
 
   </div>
 
-    <form action="/" method="post">
-      <label for="bacon-form">
-        Do you like bacon?
-      </label>
-      <input type="text" name="bacon" placeholder="Yes or no" />
-      <button type="submit">Submit</button>
-    </form>
+
 
 </body>
 

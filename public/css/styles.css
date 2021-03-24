@@ -1,14 +1,33 @@
-/*********************Tag Selectors****************************/
+/* Using grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: flex-start;
+  gap: 2rem;
 
+}
+.grid-item-one {
+  grid-column: 1/4;
+}
 
+/* example of reordering */
+.grid-item-three {
+  grid-row: 2/4;
+}
+.grid-item-seven {
+  grid-column: 1/4;
+}
+/* Element styling */
 body {
   background-color: #fff8c1;
   font-family: sans-serif;
+  margin:2rem;
+    text-align: center;
 }
 
 h1 {
   color: #c05555;
-  text-shadow: 5px 5px 5px #ffc85c;
+  text-shadow: 0.5rem 0.5rem 0.5rem #ffc85c;
 }
 
 h1:hover {
@@ -17,70 +36,6 @@ h1:hover {
 
 p {
   color: #c05555;
-  letter-spacing: 5px;
-}
-
-img {
-border-radius: 100%
-}
-
-form {
-  background-color: #c05555;
-    color: #ffc85c;
-  width: 1000px;
-  height: 100px;
-
-  padding: 20px;
-margin: 10px;
-}
-
-/********************Pseudo Class Selectors****************************/
-img:hover {
-  background-color: #ffc85c;
-}
-
-/********************Class Selectors****************************/
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-around;
-  align-content: space-around;
-}
-
-.bacon-div {
-  background-color: #c05555;
-    color: #ffc85c;
-  height: 200px;
-grid-column: 1 / span 3;
-
-}
-
-.streak-div {
-  background-color: #ffc85c;
-  color: #c05555;
-  width: 100px;
-  height: 200px;
-
-}
-
-.green-div {
-  background-color: #59886b;
-  color: #ffc85c;
-  width: 200px;
-  height: 200px;
-
-}
-
-
-.text-div{
-
-  width: 1000px;
-  height: 100px;
-
-}
-
-.bacon {
-  background-color: #ffc85c;
 }
 
 /* use of span */
@@ -88,8 +43,66 @@ grid-column: 1 / span 3;
   color: #59886b;
 }
 
+/* Image styling */
+img {
+  border-radius: 100%
+}
+
+img:hover {
+  background-color: #ffc85c;
+}
+
 .banana {
   background-color: #c05555;
+}
+
+form {
+  background-color: #c05555;
+  color: #ffc85c;
+  /* width: 80rem;
+  height: 10rem; */
+
+}
+
+/* grid item classes */
+
+.text-box {
+  background: white;
+  /* width: 12rem;
+  height: 12rem; */
+}
+.bacon-box {
+  background-color: #c05555;
+  color: #ffc85c;
+  /* height: 12rem;
+  width: 12rem; */
+
+}
+
+.streak-box {
+  background-color: #ffc85c;
+  color: #c05555;
+  /* width: 12rem;
+  height: 12rem; */
+}
+
+.green-box {
+  background-color: #59886b;
+  color: #ffc85c;
+  /* width: 12rem;
+  height: 12rem; */
+}
+
+/* gif styling */
+.giphy-embed {
+  height:20rem;
+  width: 20rem;
+}
+
+.tenor-gif-embed {
+  height:60%;
+  width: 30%;
+ margin-left: 35%;
 }
 
 /********************ID Selectors****************************/
