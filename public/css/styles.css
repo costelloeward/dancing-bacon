@@ -11,10 +11,10 @@
 }
 
 /* example of reordering */
-.grid-item-three {
+/* .grid-item-three {
   grid-row: 2/4;
-}
-.grid-item-seven {
+} */
+.grid-item-six {
   grid-column: 1/4;
 }
 /* Element styling */
